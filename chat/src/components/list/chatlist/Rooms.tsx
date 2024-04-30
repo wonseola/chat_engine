@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./rooms.css"
+import AddUser from "./addUser/AddU";
 
 const Rooms = () => {
     const [addMode, setAddMode] = useState(false);
@@ -34,6 +35,7 @@ const Rooms = () => {
                     <p>Hello</p>
                 </div>
             </div>
+            {addMode && <AddUser />}
         </div>
     )
 }

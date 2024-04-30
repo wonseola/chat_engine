@@ -1,0 +1,58 @@
+.addUser {
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    background-color: rgba(0, 139, 139, 0.558);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    .addUser form {
+        display: flex;
+        gap: 20px;
+    }
+
+    .addUser input {
+        padding: 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+
+    .addUser button {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: darkcyan;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .addu {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .adduserdetail img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .adduserdetail {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #bb {
+        padding: 10px;
+    }
+}
