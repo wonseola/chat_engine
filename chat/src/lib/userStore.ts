@@ -4,7 +4,7 @@ import { db } from './firebase';
 
 interface User {
     username: string;
-    avatar: string
+    avatar?: string
     uid: string;
     id: string;
 }
